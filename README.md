@@ -85,6 +85,7 @@
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill that integrates WebMCP into an existing web app end to end — inventories the app, proposes a tool manifest for approval, integrates the tools, then verifies each one in a real browser and heals failures
 - [WebMCP Kit](https://github.com/nekuda-ai/webmcp-kit) - Plugin for coding agents with an interactive visual Explorer that maps a site's user journeys to proposed WebMCP tools for review and approval, then implements and verifies them in a real browser.
 - [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands ([source](https://github.com/robertn702/webmcp-today)).
+- [Site Passport](https://sitepassport.org) - Free, live-verified index of AI-agent readiness for WordPress and other sites: checks `llms.txt`, AI-crawler `robots.txt` directives, schema.org markup, and whether a site serves a WebMCP manifest. Also callable as an MCP tool, and publishes its own [WebMCP explainer](https://sitepassport.org/what-is-webmcp) ([source](https://github.com/renduples/sitepassport-mcp)).
 
 ## Tutorials
 
