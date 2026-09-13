@@ -103,6 +103,7 @@
 - [agent-ready.dev](https://agent-ready.dev/) - Scores any website for AI-agent readability against the Vercel Agent Readability Spec, llms.txt, and agent-protocol manifests, and exposes WebMCP tools (`scan_site`, `get_scan`, `ask`) via `navigator.modelContext` so in-browser agents can run scans directly.
 - [Stacktree](https://stacktr.ee) - Agent-first HTML hosting. The production dashboard and docs expose site-management tools (publish, update, gate, share) over WebMCP from a command palette, so humans and in-browser agents share one tool catalog.
 - [sms-florin](https://flo-voice1.com/esim) - eSIM and virtual phone number store. WebMCP tools are registered on the live Stripe checkout flow (not a separate demo), so an agent browses plans and completes a real purchase through the same code path a human uses. [Integration source](https://github.com/flovoice53-tech/sms-florin-webmcp-demo)
+- [Site Passport](https://sitepassport.org) - An independent, pull-verified AI-agent-readiness index for WordPress sites. Exposes two WebMCP tools (`scan_website_agent_readiness`, `list_verified_agent_ready_sites`) via `document.modelContext`, so in-browser agents can run the same llms.txt/robots.txt/schema.org scan the homepage form runs, or query the verified directory, directly.
 
 ## License
 
